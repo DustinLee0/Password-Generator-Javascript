@@ -29,6 +29,7 @@ function generatePassword() {
   //window.alert prompts an alert window
   if(isNaN(passLength)) {
     window.alert('That is not a numeric value. Please try again.');
+    return;
   } else if (passLength < 8 || passLength > 128) {
     window.alert('Password length must be between 8 - 128 characters.');
     return;
