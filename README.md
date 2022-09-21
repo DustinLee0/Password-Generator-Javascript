@@ -1,6 +1,8 @@
 # Password-Generator-Javascript
 
-This is a simple password generator made using Javascript. The generator asks the user questions for specific parameters like how many characters the user would like the password to be, the use of lowercase, uppercase, numbers, and special characters in the password. Once the user inputs the information correctly, the function will generate a password with the chosen criteria and display the randomly generated password to the user. 
+This is a simple password generator made using Javascript. The generator asks the user questions for specific parameters like how many characters the user would like the password to be, the use of lowercase, uppercase, numbers, and special characters in the password. Once the user inputs the information correctly, the function will generate a random password with the chosen criteria and display the  password to the user. 
+
+If no criteria is met, the password generator will default the password to only using numbers. 
 
 ## User Story
 AS AN employee with access to sensitive data, 
