@@ -31,6 +31,7 @@ function generatePassword() {
     window.alert('That is not a numeric value. Please try again.');
   } else if (passLength < 8 || passLength > 128) {
     window.alert('Password length must be between 8 - 128 characters.');
+    return;
   } 
 
   //window.confirm returns boolean value depending on what was clicked (click "OK" --> returns true  || click "Cancel" --> returns false)
